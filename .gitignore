@@ -1,0 +1,27 @@
+# Ignore all
+*
+!LICENSE
+
+# Unignore all with extensions
+!*.*
+
+# Unignore dirs
+!*/
+
+## Above combination ignore all files without extension
+
+# ignore output
+*.swp
+*.pyc
+*.eps
+*.png
+*.npy
+*.npz
+*.op
+*.out
+
+*.DS_Store
+
+__pycache__
+.vscode
+.ipynb_checkpoints
